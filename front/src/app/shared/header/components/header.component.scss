@@ -1,0 +1,10 @@
+@import "../../../../styles/variables.scss";
+@import "../../../../styles/styles.scss";
+
+* {
+  color:$tertiary-color;
+
+  a:hover {
+    color:$secondary-color;
+  }
+}
