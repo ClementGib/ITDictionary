@@ -1,10 +1,45 @@
 - **Chatbot**: chatbot is a computer program designed to simulate conversation with human users 24/7, used to gather data, user support, shopping assistance, financial service and many more.
 - **Rule-based Chatbot**: pre-programmed chatbot conversation with ruled answer (if/then), limited input, no intent or synonyms interpretation.
 - **AI-Chatbot** : Use NLP, free questions with no rule-based answer, can understand intent of query and synonyms. Collect Data to learn (ML)
-- **Natural language processing (NLP)** : It's a branch of artificial intelligence (AI) that focuses on enabling computers to understand, interpret, and generate human language in a way that is both natural and meaningful
+- **Smart assistant**: is virtual assistant or intelligent personal assistant, is a software agent that uses artificial intelligence (AI), natural language processing (NLP), and machine learning (ML) techniques to provide assistance and perform tasks for users. Like Alexia, Google, SIRI or ChatGPT are the most known but it existe for healthcare like nuance dragon or retail like IBM watson assistant. It often used for tast automation like manage your calendar or meating trancription (fireflies). 
+- **Natural language processing (NLP)** : It's a branch of artificial intelligence (AI) that focuses on enabling computers to understand, interpret, and generate human language in a way that is both natural and meaningful: use ASR, NLU and NLG to understand and answer.
+- **Automatique Speech recognition (ASR)**: is technology that converts spoken language into text. It works by analyzing audio input, identifying speech patterns, and generating written text as output.
+  - **Audio Input**: ASR systems receive spoken language through microphones or other audio devices.
+  - **Feature Extraction**: Extracts relevant aspects like frequency and amplitude from the audio signal.
+  - **Acoustic Modeling**: Matches extracted features with speech patterns to identify spoken sounds.
+  - **Language Modeling**: Determines the most likely sequence of words based on context.
+  - **Decoding**: Combines acoustic and language models to transcribe speech into text.
+  - **Output**: Produces transcribed text representing the spoken language.
+- **Natural Language Understanding (NLU)**: stands for Natural Language Understanding. It refers to the ability of computers to comprehend and interpret human language in a way that is meaningful and contextually relevant.
+  - **Tokenization**: The input text is divided into smaller units called tokens, such as words, phrases, or sentences. This step helps break down the text into manageable chunks for further analysis.
+  - **Part-of-Speech Tagging**: Each token is tagged with its part of speech (e.g., noun, verb, adjective) to understand its grammatical role in the sentence.=
+  - **Named Entity Recognition (NER)**: NER identifies and categorizes named entities in the text, such as people, organizations, locations, dates, and more. This helps extract important information from the text.
+  - **Parsing**: Parsing involves analyzing the syntactic structure of the text to understand relationships between words and phrases, such as subject-verb-object relationships in sentences.
+  - **Semantic Analysis**: Semantic analysis focuses on understanding the meaning of the text beyond its surface structure. It involves tasks such as identifying relationships between words, disambiguating word meanings, and understanding context.
+  - **Sentiment Analysis**: Sentiment analysis determines the overall sentiment or emotional tone expressed in the text, such as positive, negative, or neutral. This can be useful for understanding user opinions or attitudes.
+  - **Intent Recognition**: Intent recognition involves identifying the underlying intent or purpose behind the text. This helps determine what the user wants to accomplish or communicate.
+  - **Contextual Understanding**: NLU systems consider the context surrounding the text, such as previous interactions, user preferences, and situational factors, to provide more accurate interpretations and responses.
+-**Speech synthesis**: also known as text-to-speech (TTS), is the artificial production of human speech from written text. It involves converting written text into spoken words using computer algorithms and speech synthesis techniques.
+  - **Text Analysis**: The input text is analyzed to determine its linguistic structure, including word boundaries, punctuation, and formatting.
+  - **Text Preprocessing**: The text may undergo preprocessing steps to improve pronunciation, such as expanding abbreviations, handling homographs, and applying language-specific rules.
+  - **Phonetic Encoding**: Each word in the text is encoded phonetically, representing its pronunciation in terms of phonemes, which are the smallest units of sound in a language.
+  - **Prosody Generation**: Prosody refers to the rhythm, intonation, and stress patterns of speech. Speech synthesis systems generate prosodic features, such as pitch, duration, and amplitude, to make the synthesized speech sound natural and expressive.
+  - **Voice Synthesis**: Using a voice synthesizer, the phonetic and prosodic information is combined to generate the final speech waveform. The synthesizer may use recorded human speech samples, concatenative synthesis (combining pre-recorded units of speech), or parametric synthesis (generating speech from mathematical models).
+  - **Output**: The synthesized speech waveform is played back through speakers or output as an audio file, producing human-like speech that corresponds to the input text.
+- **Natural Language Generation**: is technology that converts spoken language into text. It works by analyzing audio input, identifying speech patterns, and generating written text as output.
 - **Machine learning (ML)** : It is a subset of AI focus on developing algorithms and techniques that enable computers to learn from and make predictions or decisions
 based on data without being explicitly programmed to do so. Use labeled or unlabeled data, can be surpevised or unsupervise. Using many algorithms and models like linear regression, decision trees, support vector machines, neural networks, clustering algorithms.
 used in many domain like Natural language processing, Image and speech recognition, Fraud detection, Financial forecasting...
+- **Deep learning**: works by using artificial neural networks with multiple layers to learn hierarchical representations of data directly from raw input. Here's a simplified overview of how deep learning works:
+  - **Input Data**: Deep learning models take raw input data, such as images, text, or audio, as their input.
+  - **Neural Network Architecture**: The data is fed into a neural network, which consists of multiple layers of interconnected nodes (neurons). Each layer performs mathematical operations on the input data to transform it into a more abstract representation.
+  - **Forward Propagation**: The input data is processed through the neural network layer by layer in a process called forward propagation. Each layer applies a set of mathematical operations to the input data, transforming it into a higher-level representation.
+  - **Activation Functions**: Non-linear activation functions are applied to the output of each layer to introduce non-linearity into the model. This allows the neural network to learn complex patterns and relationships in the data.
+  - **Training**: The neural network is trained using a dataset of labeled examples. During training, the model adjusts its internal parameters (weights and biases) based on the difference between its predictions and the true labels in the training data. This process is typically done using optimization algorithms such as stochastic gradient descent (SGD) or its variants.
+  - **Backpropagation**: After making predictions on the training data, the model calculates the error (or loss) between its predictions and the true labels. This error is then propagated backward through the network using a process called backpropagation. The gradients of the loss function with respect to the model parameters are computed, and the parameters are updated accordingly to minimize the loss.
+  - **Learning Features**: As the model is trained on more data, it learns to automatically extract relevant features or representations from the raw input data. These features are learned hierarchically across the layers of the network, with each layer capturing increasingly abstract and complex patterns in the data.
+  - **Evaluation**: Once trained, the model can be evaluated on a separate validation or test dataset to assess its performance. This helps determine how well the model generalizes to new, unseen data.
+  - **Inference**: After training and evaluation, the trained model can be used for inference, where it makes predictions on new, unseen data. This allows the model to perform tasks such as image classification, speech recognition, language translation, and more.
 - **Labeled/unlabeled data**:
 - **Supervision learning**: Surpevised learning, Unsupervised learning, Semi-supervised, Reinforcement Learning
 - **Linear regression**:
